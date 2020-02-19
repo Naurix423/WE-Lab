@@ -5,15 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "\"echo\"\\\"Error: no test specified\\\" && exit 1\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Naurix423/WE-Lab.git"
-  },
+    "start": "node index.js"  
+},
   "author": "Nauris Valaks",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Naurix423/WE-Lab/issues"
-  },
-  "homepage": "https://github.com/Naurix423/WE-Lab#readme"
+  "dependencies": {
+	"express": "~r.13.4"
+}, 
+ "license": "ISC",
 }
